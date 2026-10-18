@@ -40,7 +40,7 @@ class MainActivity : Activity() {
         val root = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
             setPadding(30, 45, 30, 45)
-            setBackgroundColor(background)
+            setBackgroundColor(Color.rgb(5, 9, 23))
             gravity = Gravity.CENTER_HORIZONTAL
         }
 
